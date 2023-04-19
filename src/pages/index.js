@@ -71,7 +71,7 @@ const Page = () => {
 		<h1>GLTF preview</h1>
 		<p>Drag & Drop a .gltf file into the viewport</p>
 		<input {...getInputProps()} />
-		<div style={{ width: '50vw', height: '50vh', border: '4px solid black' }}>
+		<div style={{ width: '95vw', height: '600px', border: '4px solid black' }}>
 			<Canvas>
 				<TrackballControls />
 				<Stage
